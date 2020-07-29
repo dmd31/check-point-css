@@ -1,0 +1,266 @@
+
+
+    body {
+            background-color: black; 
+            background-image: linear-gradient(black,blueviolet,orange, red); 
+            font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .color {
+            color: white;
+    }
+
+    
+
+    #image1 {
+            border-radius: 50%;
+            display:flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+    
+    }
+
+    .image1 {
+        
+            text-align: center;
+    
+    }
+
+
+    .hea{
+    
+             display:flex;
+        
+    }
+
+    .portfolio{
+        
+            flex:1;
+            background-color: white;
+            text-align: center;
+            font-weight: 700;
+            color: darkblue;
+            max-width: 150px;
+            background-image: -webkit-linear-gradient(right, rgb(214, 26, 94), rgb(255, 140, 5));
+            border-radius: 25px; 
+            justify-content:center;
+            align-items :center;
+            display:flex;
+        
+    }
+
+    .sera{
+            flex:3;
+            justify-content: flex-end;
+            display: flex;
+        
+    }
+
+
+    .ser{
+        
+            background-image: -webkit-linear-gradient(right, rgb(214, 26, 94), rgb(255, 140, 5));
+            border-radius: 15px;
+            border-width: 5px ;  
+            width: 200px;
+            text-align: Center;
+            color:white;
+            font-weight: 700
+            
+            
+            
+        }
+
+        .input {
+            
+            background-color:transparent;
+            width: 100px;
+            height: 20px;
+            margin: 5px;
+            border-radius: 10PX;
+            
+        
+            
+        }
+
+
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;}
+            
+
+        
+            
+            
+        
+
+        nav>a{
+            font-size: 35px;
+            font-weight: 700;
+            border-radius: 25px;
+            max-width: 200px;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            color:white;      
+            background-image: -webkit-linear-gradient(right, rgb(214, 26, 94), rgb(255, 140, 5));
+            display: flex;
+                
+        }
+    @media screen and (max-width: 1000px) {
+            nav>a  {
+                    font-size: 15px;
+                    max-width: 550;
+                }  
+    }
+        
+
+        a.ho:hover {
+            color: white;
+            font-size: 70PX;}
+
+        a.ab:hover {
+            color: white;
+            font-size: 50PX;}
+
+        a.wo:hover {
+            color: white;
+            font-size: 50PX;}
+
+        a.re:hover {
+        color: white;
+            font-size: 50PX;}
+
+        a.con:hover {
+            color: white;
+            font-size: 50PX;}
+
+
+
+
+            #about{
+                
+                    display: flex;
+                    flex-direction: column;
+            
+            }
+
+            .habout{
+            
+                     max-width: 100px;
+            }
+
+            
+            .flexabout1{
+                    font-family: 'Courier New', Courier, monospace;
+                    justify-content: center;
+                    display: flex;  
+                    padding: 10px;
+                    
+
+            }
+
+            .flexabout2{
+                    font-family: 'Courier New', Courier, monospace;
+                    justify-content: center;
+                    display: flex;
+                    padding: 10px;
+                
+
+            }
+        
+            .work {
+                    display: flex;
+                    flex-direction: column;
+            
+
+            }
+
+            .hwork{
+                     max-width: 100px;
+            }
+
+            .olwork{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+            }
+
+        button{
+                    background-color: lawngreen;
+                    border-radius: 25PX;
+                    font-weight: 600;
+                    font-size: 30PX;
+
+            }
+
+            .go {
+                    background-color:black;
+                    border-radius: 15PX;
+                    font-size: 50PX;
+                    font-weight: 700;
+                    text-align: center;
+                    color: wheat;
+                    max-width:220px;
+                    text-decoration: none;
+                
+            }
+        
+
+        
+
+
+        footer{
+            
+            
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-style: italic;
+                    border-radius: 25PX 25px;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    padding: 40px;
+            
+            }
+
+            .dfooter {
+                    background-color: blue; 
+                    background-image: linear-gradient(blue,yellow,green );
+                    color: black;
+                    padding: 30px;
+                    border-radius: 25PX 25px;
+            }
+            
+            
+            
+            
+
+        h2{
+                    background-color: lawngreen;
+                    text-align: center;
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                    border-radius: 15px 35px;
+                    max-width: 130px;
+            }
+
+                        #resume {
+                                font-style: italic;
+                                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                 display: grid;
+                                grid-template-columns: auto auto auto auto;
+                                grid-template-rows: 30PX 30PX ;
+
+                        }
+     
+                        .socialmedia {
+                                display: flex;
+                                flex-wrap: wrap;
+                        }
+        
